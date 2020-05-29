@@ -1,7 +1,9 @@
 import React from "react";
-import Logo from "../Components/Logo";
 import Head from "next/head";
 import theme from "../theme";
+import Header from "../Components/Header";
+import Main from "../Components/Main";
+import Footer from "../Components/Footer";
 
 export default class App extends React.Component {
     render() {
@@ -11,9 +13,11 @@ export default class App extends React.Component {
                     <title>Adapt Solutions</title>
                     <link rel="icon" href="./logo.svg" />
                     <link rel="stylesheet" href="https://use.typekit.net/vyf6qyn.css" />
+                    <link rel="stylesheet" href="/static/style.css" />
                 </Head>
-                <Logo />
-                <h1 style={theme.body1}>Adapt Solutions</h1>
+                <Header />
+                <Main />
+                <Footer />
             </div>
         )
     }

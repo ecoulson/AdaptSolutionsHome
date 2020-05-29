@@ -9,6 +9,6 @@ const LogoStyle = {
 
 export default class Logo extends Component {
     render() {
-        return <img style={LogoStyle} className="logo" src="./logo.svg" />
+        return <img alt="Adapt Solutions Logo" style={LogoStyle} className="logo" src="./logo.svg" />
     }
 }
