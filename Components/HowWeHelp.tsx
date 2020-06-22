@@ -1,24 +1,26 @@
 import { Component } from "react";
-import theme from "../theme";
-import Button from "./Button";
 
 const HowWeHelpStyle = {
     textAlign: 'center' as const,
-    padding: 25,
-    backgroundColor: "white"
+    minWidth: 300,
+    maxWidth: 700,
+    height: 'auto',
+    margin: '10vh auto',
+    width: '100%'
 }
 
 const HowWeHelpTitleStyle = {
-    ...theme.h3,
-    marginTop: 0
+    marginTop: 0,
+    fontWeight: 600,
+    fontSize: 40,
+    color: "white"
 }
 
 export default class HowWeHelp extends Component {
     render() {
         return (
             <section style={HowWeHelpStyle} className="how-we-help">
-                <h2 style={HowWeHelpTitleStyle}>Adapt Solutions helps companies navigate our unpredictable economy</h2>
-                <Button>How We Help</Button>
+                <h2 style={HowWeHelpTitleStyle}>Adapt Solutions helps companies get up and running online during these uncertain times</h2>
             </section>
         )
     }

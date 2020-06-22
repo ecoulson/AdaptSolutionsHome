@@ -4,7 +4,9 @@ const LogoStyle = {
     width: '100px',
     height: '100px',
     margin: '0 auto',
-    display: 'block'
+    display: 'block',
+    fill: "white",
+    paddingTop: "25px"
 };
 
 export default class Logo extends Component {

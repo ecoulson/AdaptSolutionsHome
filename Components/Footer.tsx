@@ -2,9 +2,9 @@ import { Component } from "react"
 import theme from "../theme"
 
 const FooterStyle = {
-    marginTop: 50,
     padding: 25,
-    backgroundColor: theme.colors.darkAccent
+    backgroundColor: theme.colors.darkAccent,
+    boxShadow: "0px -10px 20px 5px rgba(0,0,0,0.4)"
 }
 
 const FooterParagraphStyle = {
@@ -13,7 +13,8 @@ const FooterParagraphStyle = {
 }
 
 const EmailStyle = {
-    marginLeft: 5
+    marginLeft: 5,
+    color: theme.colors.success
 }
 
 export default class Footer extends Component {

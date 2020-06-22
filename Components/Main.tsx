@@ -7,9 +7,8 @@ export default class Main extends Component {
     render() {
         return (
             <main className="main">
-                <HowWeHelp />
-                <OurTeam />
                 <RestaurantRecords />
+                <OurTeam />
             </main>
         )
     }
